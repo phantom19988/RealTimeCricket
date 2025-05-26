@@ -54,17 +54,24 @@ header::after {
 
 /* Hero */
 .hero {
+  height: 80vh;
   text-align: center;
   padding: 100px 20px;
-  background-color: #eaf6ff;
+  background: url(./images/bann4.jpg_large)  center / contain no-repeat;
+  background-size: 100% 100%;
+  background-position: left;
 }
 
 .hero h2 {
+  color: white;
+  text-shadow: 2px 2px 2px rgb(62, 62, 233) ;
   font-size: 2.5rem;
   margin-bottom: 15px;
 }
 
 .hero p {
+  color: white;
+  text-shadow: 2px 2px 2px blue ;
   font-size: 1.1rem;
   margin-bottom: 20px;
 }
@@ -110,6 +117,63 @@ header::after {
   width: 300px;
 }
 
+
+
+/* Legends Section */
+.legends {
+  padding: 4rem 0;
+  background-color: #eaf6ff;
+}
+
+
+.legends h2 {
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.legends-timeline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.timeline-content {
+  background-color: #2424242d;
+  padding: 1rem;
+  text-align: center;
+}
+
+.timeline-content img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 2rem;
+  object-fit: cover;
+}
+
+.timeline-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.era {
+  color: var(--color-accent);
+  margin-bottom: 0.5rem;
+}
+
+.achievement {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
 /* About */
 .about-content {
   display: flex;
@@ -128,6 +192,8 @@ header::after {
   max-width: 100%;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  height: 40vh;
+  width: 30vw;
 }
 
 /* Footer */
